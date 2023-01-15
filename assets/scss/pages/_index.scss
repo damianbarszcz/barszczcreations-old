@@ -1,0 +1,12 @@
+
+
+.welcome{
+    position:relative;
+    min-width: 100%;
+    z-index:1;
+
+    &__block{
+        padding: 12rem 0 12rem;
+        text-align: center;
+    }
+}

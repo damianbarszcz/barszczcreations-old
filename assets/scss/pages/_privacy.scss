@@ -1,0 +1,30 @@
+
+.privacy{
+    position:relative;
+    min-width: 100%;
+    z-index:1;
+
+    &__block{
+        padding:6rem 0 6rem;
+    }
+
+    &__inner{
+        margin:auto;
+        width: 50vw;
+    }
+
+    &__item{
+        margin-bottom: 3rem;
+
+        &-title{
+            color: $primary-dark;
+        }
+
+        &-desc{
+            font-size:1.1rem;
+            line-height: 1.7;
+            font-weight: 400;
+            color: $primary-dark;
+        }
+    }
+}

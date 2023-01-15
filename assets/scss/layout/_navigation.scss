@@ -1,0 +1,46 @@
+
+
+.navigation{
+    position:relative;
+    min-width: 100%;
+    border-bottom:1px solid $light-silver;
+    z-index:1;
+
+    &__block{
+        display: grid;
+        align-items: center;
+        grid-template-columns: .2fr 1fr .2fr;
+        height: 4.25rem;
+    }
+
+    &__brand-logo{
+        height: 2rem;
+        width: 10.2rem;  
+
+        &-gray{ fill: $primary-dark;  }
+
+        &-yellow{ fill: $brand-yellow; }
+
+        &-blue{ fill: $brand-blue; }
+
+        &-green{ fill: $brand-green; }
+
+        &-red{ fill: $brand-red; }
+    }
+
+    &__list &__item{
+        display: inline;
+    }
+
+    &__item{
+        margin: 0 1rem;
+    }
+
+    &__link{
+        color: $primary-dark;
+    }
+
+    &__trigger{
+
+    }
+}
