@@ -1,0 +1,27 @@
+//
+// Forms styles
+//
+
+.form{
+
+    &__input, &__textarea{
+        padding: 1.15rem 1.5rem;
+        width: 100%;
+        box-sizing: border-box;
+        border: 1px solid $light-silver;
+        font-size:$font-size-normal;
+        outline: none;
+
+        &:focus, &:active{
+            border: 1px solid $brand-blue !important;
+        }
+    }
+
+    &__label {
+        display: block;
+        padding-bottom: 0.75rem;
+        color: $dark;
+        font-weight: $font-weight-regular;
+        letter-spacing: 0;
+    }
+}

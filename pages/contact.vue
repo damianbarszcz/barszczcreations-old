@@ -3,13 +3,13 @@
         <Navigation /> 
 
         <section class="contact_banner">
-          <div class="contact_banner__block g-container">
-              <header class="contact_banner__header">
-                  <h1 class="contact_banner__header-title">Skontaktuj się</h1>
+            <div class="contact_banner__block g-container">
+                <header class="contact_banner__header">
+                    <h1 class="contact_banner__header-title">Skontaktuj się</h1>
 
-                  <p class="contact_banner__header-desc">Jeśli interesuje Cię współpraca biznesowa ze mną, to masz możliwość skorzystania z formularza kontaktowego.</p>
-              </header>
-          </div>
+                    <p class="contact_banner__header-desc">Jeśli interesuje Cię współpraca biznesowa ze mną, to masz możliwość skorzystania z formularza kontaktowego.</p>
+                </header>
+            </div>
         </section>
 
         <section class="contact_me">
@@ -45,8 +45,9 @@
                         
                         <div class="contact_me__form-inline">
                             <div class="contact_me__form-recaptcha"></div>
-                            <div>
-                                <button type="submit" class="btn btn_normal btn_purple" tabindex="6">Wyślij</button>
+
+                            <div class="contact_me__form-box">
+                                <button type="submit" class="btn btn_lg btn_purple" tabindex="6">Wyślij</button>
                             </div>
                         </div>  
                     </form>

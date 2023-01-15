@@ -1,4 +1,18 @@
 
+@mixin button-size($padding-y, $padding-x, $font-size) {
+    padding: $padding-y $padding-x;
+    font-size:$font-size;
+}
+
+@mixin button-color($background-color, $color) {
+    background-color: $background-color;
+    color:$color;
+
+    &:hover { 
+        background-color: darken($background-color, 15%);
+    }
+}
+
 @media screen and (min-width: 1441px) and (max-width: 1920px){
     .g-container{
         margin:auto;

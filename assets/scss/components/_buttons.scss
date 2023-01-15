@@ -1,0 +1,47 @@
+//
+// Buttons styles
+//
+
+.btn{
+    display: inline-block;
+    cursor: pointer;
+    text-transform: uppercase;
+    text-decoration: none;
+    border-radius: 0.35rem;
+    border:0;
+    font-family:$page-font;
+    font-weight:$font-weight-bold;
+    background-color:transparent;
+
+    &:disabled{  
+        pointer-events: none;
+    }
+
+    &_lg{
+        @include button-size(1.35rem, 2rem, $font-size-small);
+    }
+
+    &_sm{
+        @include button-size(1rem, 1.5rem, $font-size-small);
+    }
+
+    &_xl{
+        @include button-size(0.75rem, 1rem, $font-size-extra-small);
+    }
+
+    &_white{
+        @include button-color($white, $dark);
+    }
+
+    &_purple{
+        @include button-color($brand-purple, $white);
+    }
+
+    &_red{
+        @include button-color($brand-red, $white);
+    }
+
+    &_blue{
+        @include button-color($brand-blue, $white);
+    }
+}

@@ -21,11 +21,11 @@
 
                     <ul class="footer__list">
                         <li class="footer__item">
-                            <NuxtLink to="/contact" target="_self"> Kontakt </NuxtLink>
+                            <NuxtLink class="footer__link" to="/contact" target="_self"> Kontakt </NuxtLink>
                         </li>
 
                         <li class="footer__item">
-                            <NuxtLink to="/about" target="_self"> O mnie </NuxtLink>
+                            <NuxtLink class="footer__link" to="/about" target="_self"> O mnie </NuxtLink>
                         </li>
                     </ul>
                 </div>
@@ -37,15 +37,15 @@
 
                     <ul class="footer__list">
                         <li class="footer__item">
-                            <a href="https://twitter.com/DamianBarszcz" target="_blank"> Twitter </a>
+                            <a class="footer__link" href="https://twitter.com/DamianBarszcz" target="_blank"> Twitter </a>
                         </li>
 
                         <li class="footer__item">
-                            <a href="https://www.instagram.com/thedamianbarszcz" target="_blank"> Instagram  </a>
+                            <a class="footer__link" href="https://www.instagram.com/thedamianbarszcz" target="_blank"> Instagram  </a>
                         </li>
 
                         <li class="footer__item">
-                            <a href="https://github.com/damianbarszcz" target="_blank"> Github </a>
+                            <a class="footer__link" href="https://github.com/damianbarszcz" target="_blank"> Github </a>
                         </li>
                     </ul>
                 </div>
@@ -56,11 +56,11 @@
 
                 <ul class="footer__list footer__list--copyright">
                     <li class="footer__item">
-                        <NuxtLink to="/" target="_self"> Start </NuxtLink>
+                        <NuxtLink class="footer__link" to="/" target="_self"> Start </NuxtLink>
                     </li>
 
                     <li class="footer__item">
-                        <NuxtLink to="/privacy" target="_self"> Prywatność </NuxtLink>
+                        <NuxtLink class="footer__link" to="/privacy" target="_self"> Prywatność </NuxtLink>
                     </li>
                 </ul>
             </div>

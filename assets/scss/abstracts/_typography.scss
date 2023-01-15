@@ -1,0 +1,36 @@
+
+html {
+    font-size: 100%;
+}
+
+h1,h2,h3,h4,h5,h6,p,a,span,label,text,button{
+    font-family: $page-font;
+}
+
+h1, .h1-text{
+    font-size:$font-size-normal;
+}
+
+h2, .h2-text{
+    font-size:$font-size-normal;
+}
+
+h3, .h3-text{
+    font-size:$font-size-normal;
+}
+
+h4, .h4-text{
+    font-size:$font-size-normal;
+}
+
+h5, .h5-text{
+    font-size:$font-size-normal;
+}
+
+h6, .h6-text{
+    font-size:$font-size-normal;
+}
+
+p{
+    font-size:$font-size-normal;
+}
