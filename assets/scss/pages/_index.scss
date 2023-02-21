@@ -1,12 +1,48 @@
 
 
-.welcome{
+.home{
     position:relative;
     min-width: 100%;
     z-index:1;
 
     &__block{
-        padding: 12rem 0 12rem;
+        padding: 3rem 0 3rem;
         text-align: center;
+    }
+
+    &__newpub{
+        padding: 2rem;
+        background-color:$white;
+
+        &:hover{
+            transition: 0.2s ease-in-out;
+            box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+        }
+
+        &-header{
+            max-width: 48rem;
+            margin-top:1.5rem;
+            text-align: left;
+
+            &-title{
+                font-size:$font-size-big;
+                line-height: $line-height-big;
+                color:$dark;
+            }
+
+            &-text{
+                font-size: $font-size-extra-normal;
+                line-height: $line-height-extra-normal;
+                color: $light-dark;
+            }
+
+            &-date{
+                display: block;
+                margin-top:1rem;
+                font-size: $font-size-extra-normal;
+                line-height: $line-height-extra-normal;
+                color: $light-dark;
+            }
+        }
     }
 }

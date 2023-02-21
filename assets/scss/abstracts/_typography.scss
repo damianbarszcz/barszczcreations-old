@@ -8,11 +8,13 @@ h1,h2,h3,h4,h5,h6,p,a,span,label,text,button{
 }
 
 h1, .h1-text{
-    font-size:$font-size-normal;
+    font-size: $font-size-huge;
+    line-height: 4rem;
 }
 
 h2, .h2-text{
-    font-size:$font-size-normal;
+    font-size:$font-size-big;
+    line-height: 3rem;
 }
 
 h3, .h3-text{
@@ -31,6 +33,9 @@ h6, .h6-text{
     font-size:$font-size-normal;
 }
 
-p{
+p, .p-text{
     font-size:$font-size-normal;
+    font-weight: $font-weight-regular;
+    line-height: $line-height-normal;
+    letter-spacing: $letter-spacing-normal;
 }

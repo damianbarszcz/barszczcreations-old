@@ -1,13 +1,35 @@
+<script>
+  import PrimaryNavigation from '@/components/navigation/PrimaryNavigation.vue'
+  import HeaderNavigation from '@/components/navigation/HeaderNavigation.vue'
+  import PrimaryFooter from '@/components/layout/PrimaryFooter.vue'
+  import Home from '@/components/pages/Home.vue'
+
+  export default {
+    components: {
+      PrimaryNavigation,
+      HeaderNavigation,
+      PrimaryFooter,
+      Home,
+    },
+
+    data(){
+      return{
+        isScroll: 0
+      }
+    }
+  }
+</script>
+
 <template>
-  <div>
-    <Navigation /> 
+    <div>
+      <PrimaryNavigation v-if="isScroll > 0" />
 
-    <section class="welcome">
-        <div class="welcome__block g-container">
-            <h1>Witaj, na moim stronie!</h1>
-        </div>
-    </section>
+      <HeaderNavigation v-else />
 
-    <Footer />
-  </div>
+      <main>
+        <Home />
+      </main>
+
+      <PrimaryFooter />
+    </div>
 </template>

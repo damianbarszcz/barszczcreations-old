@@ -4,7 +4,7 @@
             <div class="footer__inner">
                 <div class="footer__box">
                     <div class="footer__about"> 
-                        <h6 class="footer__about-title">O stronie</h6> 
+                        <p class="footer__about-title">O stronie</p> 
 
                         <p class="footer__about-desc">
                             To mój blog osobisty, na którym dzielę się stworzonymi projektami, książkami 
@@ -16,7 +16,7 @@
 
                 <div class="footer__box">
                     <header class="footer__header"> 
-                        <h6 class="footer__header-title">Odkrywaj</h6> 
+                        <p class="footer__header-title">Odkrywaj</p> 
                     </header>
 
                     <ul class="footer__list">
@@ -32,7 +32,7 @@
 
                 <div class="footer__box">
                     <header class="footer__header">
-                        <h6 class="footer__header-title">Obserwuj</h6>
+                        <p class="footer__header-title">Obserwuj</p>
                     </header>
 
                     <ul class="footer__list">

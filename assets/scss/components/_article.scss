@@ -1,0 +1,35 @@
+
+
+.article-banner{
+    position:relative;
+    min-width: 100%;
+    z-index:1;
+
+    &__header{
+        margin-top:1.5rem;
+        
+        &-title{
+            font-size:$font-size-big;
+            line-height: $line-height-big;
+            color:$dark;
+        }
+
+        &-text{
+            font-size: $font-size-extra-normal;
+            line-height: $line-height-extra-normal;
+            color: $light-dark;
+        }
+    }
+}
+
+.article-body{
+
+    &__block{
+        padding: 6rem 0 6rem;
+    }
+
+    &__inner{
+        margin:auto;
+        max-width:40rem;
+    }
+}
