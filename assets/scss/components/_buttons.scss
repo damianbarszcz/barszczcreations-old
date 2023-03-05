@@ -22,7 +22,7 @@
     }
 
     &_sm{
-        @include button-size(1rem, 1.5rem, $font-size-small);
+        @include button-size(1.2rem, 1.35rem, $font-size-extra-small);
     }
 
     &_xl{

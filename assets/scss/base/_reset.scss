@@ -44,3 +44,7 @@ button{
 strong{
     font-weight: $font-weight-medium;
 }
+
+input,textarea,select{
+    font-family: $page-font;
+}

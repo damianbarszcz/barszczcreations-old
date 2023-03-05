@@ -21,11 +21,11 @@
 
                     <ul class="footer__list">
                         <li class="footer__item">
-                            <NuxtLink class="footer__link" to="/contact" target="_self"> Kontakt </NuxtLink>
+                            <NuxtLink class="footer__link" to="/kontakt" target="_self"> Kontakt </NuxtLink>
                         </li>
 
                         <li class="footer__item">
-                            <NuxtLink class="footer__link" to="/about" target="_self"> O mnie </NuxtLink>
+                            <NuxtLink class="footer__link" to="/o-mnie" target="_self"> O mnie </NuxtLink>
                         </li>
                     </ul>
                 </div>
@@ -37,7 +37,7 @@
 
                     <ul class="footer__list">
                         <li class="footer__item">
-                            <a class="footer__link" href="https://twitter.com/DamianBarszcz" target="_blank"> Twitter </a>
+                            <a class="footer__link" href="https://github.com/damianbarszcz" target="_blank"> Github </a>
                         </li>
 
                         <li class="footer__item">
@@ -45,7 +45,11 @@
                         </li>
 
                         <li class="footer__item">
-                            <a class="footer__link" href="https://github.com/damianbarszcz" target="_blank"> Github </a>
+                            <a class="footer__link" href="https://twitter.com/DamianBarszcz" target="_blank"> Twitter </a>
+                        </li>
+
+                        <li class="footer__item">
+                            <a class="footer__link" href="https://www.linkedin.com/in/damian-barszcz-227b0a226/" target="_blank"> Linkedin </a>
                         </li>
                     </ul>
                 </div>
@@ -60,7 +64,7 @@
                     </li>
 
                     <li class="footer__item">
-                        <NuxtLink class="footer__link" to="/privacy" target="_self"> Prywatność </NuxtLink>
+                        <NuxtLink class="footer__link" to="/polityka-prywatnosci" target="_self"> Prywatność </NuxtLink>
                     </li>
                 </ul>
             </div>

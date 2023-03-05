@@ -3,7 +3,7 @@
     <section class="home">
         <div class="home__block g-container">
             <article class="home__newpub">
-                <NuxtLink class="home__newpub-link" to="/project" target="_self">
+                <NuxtLink class="home__newpub-link" to="/projekt" target="_self">
                     <div class="home__newpub-media">
                        <img src="../../assets/images/sheep-hero__2_to_1_aspect_ratio.png"  alt="Projekt 18" />
                     </div>

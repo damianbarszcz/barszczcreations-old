@@ -1,0 +1,81 @@
+.login{
+    position:relative;
+    min-width: 100%;
+    z-index:1;
+
+    &__block{
+        position: relative;
+        padding: 6rem 0 6rem;
+        height: 100vh;
+    }
+
+    &__inner{
+        display: block;
+        position: absolute;
+        padding: 4rem 2rem;
+        left:50%;
+        top:50%;
+        width:27rem;
+        height:31.25rem;
+        transform: translate(-50%, -50%);
+        border: 1px solid $light-silver;
+        border-radius: 0.5rem;
+
+        &-desc{
+            color: $light-dark;
+            margin-bottom: 1rem;
+        }
+    }
+
+    &__brand{
+        min-width: 100%;
+
+        &-logo{
+            display: block;
+            width: 199px * 0.9;
+            height: 38px * 0.9;
+
+            &-gray{ fill: $dark;  }
+    
+            &-yellow{ fill: $brand-yellow; }
+    
+            &-blue{ fill: $brand-blue; }
+    
+            &-green{ fill: $brand-green; }
+    
+            &-red{ fill: $brand-red; }
+        }
+    }
+
+    &__info{
+        margin:1.5rem 0;
+
+        &-caption{
+            color: $light-dark;
+        }
+    }
+
+    &__form{
+        margin-top:1rem;
+
+        &-group{
+            position: relative;
+            margin-bottom:2rem;
+
+            &-icon{
+                position:absolute; 
+                transform: translate(0.85rem, 1.1rem);
+                fill:$light-dark;
+            }
+
+            .form__input{
+                padding-left:3.75rem;
+            }
+
+            &:last-child{
+                padding-top:1rem;
+                text-align: right;
+            }
+        }
+    }
+}
