@@ -56,7 +56,7 @@
             </div>
 
             <div class="footer__copyright">
-                <span class="footer__copyright-caption">  © 2023 Barszcz Creations </span>
+                <span class="footer__copyright-caption">  © {{new Date().getFullYear()}} Barszcz Creations </span>
 
                 <ul class="footer__list footer__list--copyright">
                     <li class="footer__item">

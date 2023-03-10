@@ -4,6 +4,11 @@
 
 .form{
 
+    &__group{
+        position: relative;
+        margin-bottom:2rem;
+    }
+
     &__input, &__textarea{
         padding: 1.15rem 1.5rem;
         width: 100%;
@@ -13,7 +18,7 @@
         outline: none;
 
         &:focus, &:active{
-            border: 1px solid $brand-blue !important;
+            border: 1px solid $brand-purple !important;
         }
     }
 
@@ -23,5 +28,11 @@
         color: $dark;
         font-weight: $font-weight-regular;
         letter-spacing: 0;
+    }
+
+    &__icon{
+        position:absolute; 
+        transform: translate(0.85rem, 1.1rem);
+        fill:$light-dark;
     }
 }

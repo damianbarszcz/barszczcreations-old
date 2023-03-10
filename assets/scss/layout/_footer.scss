@@ -1,9 +1,7 @@
 
   .footer {
-    position:relative;
-    min-width: 100%;
+    @include default-section;
     border-top:1px solid $light-silver;
-    z-index:1;
 
     &__block{
         padding:1rem 0 1rem;
@@ -48,7 +46,6 @@
             }
         }
     }
-
 
     &__item{
         margin-bottom:2rem;  

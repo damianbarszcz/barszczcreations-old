@@ -1,9 +1,7 @@
 
 .privacy{
-    position:relative;
-    min-width: 100%;
-    z-index:1;
-
+    @include default-section;
+    
     &__block{
         padding:6rem 0 6rem;
     }
@@ -26,7 +24,7 @@
 
         &-title{ 
             font-weight: $font-weight-medium;
-            color: $brand-blue;    
+            color: $brand-purple;    
         }   
 
         &-paragraph{

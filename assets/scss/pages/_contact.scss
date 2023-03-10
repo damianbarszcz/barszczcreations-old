@@ -1,9 +1,7 @@
 
 
 .contact_banner{
-    position:relative;
-    min-width: 100%;
-    z-index:1;
+    @include default-section;
     background-color:$brand-green;
     background-image: url(~assets/images/bg-figures.png);
 
@@ -36,9 +34,7 @@
 
 
 .contact_me{
-    position:relative;
-    min-width: 100%;
-    z-index:1;
+    @include default-section;
 
     &__inner{
         background-color: $white;

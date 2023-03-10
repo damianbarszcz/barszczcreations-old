@@ -9,7 +9,5 @@
 </script>
 
 <template>
-    <div>
-        <LoginBox />
-   </div>
+    <LoginBox />
 </template>

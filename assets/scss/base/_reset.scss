@@ -23,6 +23,7 @@ img, picture, video, canvas, svg {
 
 a{
     text-decoration: none;  
+    color:$brand-purple;
 }
   
 input, button, textarea, select {
@@ -47,4 +48,9 @@ strong{
 
 input,textarea,select{
     font-family: $page-font;
+}
+
+.g-container{
+    margin:auto;
+    max-width: 1280px;
 }

@@ -1,4 +1,4 @@
-
+ 
 <template>
     <section class="home">
         <div class="home__block g-container">

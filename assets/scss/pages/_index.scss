@@ -1,9 +1,7 @@
 
 
 .home{
-    position:relative;
-    min-width: 100%;
-    z-index:1;
+    @include default-section;
 
     &__block{
         padding: 3rem 0 3rem;

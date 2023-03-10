@@ -1,9 +1,7 @@
 
 
 .about_banner{
-    position:relative;
-    min-width: 100%;
-    z-index:1;
+    @include default-section;
     background-color:$brand-yellow;
     background-image: url(~assets/images/bg-figures.png);
 
@@ -92,9 +90,7 @@
 }
 
 .biography{
-    position:relative;
-    min-width: 100%;
-    z-index:1;
+    @include default-section;
 
     &__block{
         padding: 6rem 0 6rem;

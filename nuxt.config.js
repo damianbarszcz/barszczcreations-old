@@ -18,8 +18,44 @@ export default {
     
   },
 
+  router: {
+    // Przykład konfiguracji niestandardowych ścieżek routingu
+    // Ustawiamy alias dla strony '/about-us' na '/o-nas'
+    extendRoutes(routes, resolve) {
+      routes.push(
+        {
+        name: 'about',
+        path: '/o-mnie',
+        component: resolve(__dirname, 'pages/about.vue')
+        },
+        {
+          name: 'contact',
+          path: '/kontakt',
+          component: resolve(__dirname, 'pages/contact.vue')
+        },
+        {
+          name: 'login',
+          path: '/logowanie',
+          component: resolve(__dirname, 'pages/login.vue')
+        },
+        {
+          name: 'privacy',
+          path: '/polityka-prywatnosci',
+          component: resolve(__dirname, 'pages/privacy.vue')
+        },
+        {
+          name: 'project',
+          path: '/projekt',
+          component: resolve(__dirname, 'pages/project.vue')
+        },
+      )
+    }
+  },
+
   // Global CSS: https://go.nuxtjs.dev/config-css
-  css: ["~/assets/scss/app.scss"],
+  css: [
+    "~/assets/scss/app.scss"
+  ],
 
   // Plugins to run before rendering page: https://go.nuxtjs.dev/config-plugins
   plugins: [],
@@ -37,7 +73,12 @@ export default {
   modules: [
     // https://go.nuxtjs.dev/axios
     '@nuxtjs/axios',
+    'nuxt-purgecss',
   ],
+
+  purgecss: {
+    enabled: true, // Always enable purgecss
+  },
 
   'vue/multi-word-component-names': 'off',
 
@@ -46,6 +87,7 @@ export default {
     // Workaround to avoid enforcing hard-coded localhost:3000: https://github.com/nuxt-community/axios-module/issues/308
     baseURL: '/',
   },
+
 
   // Build Configuration: https://go.nuxtjs.dev/config-build
   build: {},
