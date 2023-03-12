@@ -36,8 +36,8 @@
                     </ul>
                 </div>
                 
-                <div class="search-trigger"> 
-                    <button class="btn search-trigger__open">
+                <div class="search"> 
+                    <button class="btn search__open">
                         <span class="material-symbols-outlined">search</span>
                     </button>
                 </div>

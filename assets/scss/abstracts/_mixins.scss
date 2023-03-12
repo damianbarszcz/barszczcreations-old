@@ -64,56 +64,104 @@
     }
 }
 
-@mixin menu{
+@mixin menu($typeNav){
         
     .menu{
         display: inline-block;
-        padding-top:0.5rem;
         margin:1.5rem auto 0;
         width: 100%;
         max-width: 34rem;
+
+        @if($typeNav == 'primaryNav'){
+            padding-top:0.5rem;
+        }
 
         &__list{
             padding:0;
             text-align: center;
         }
 
-
         &__item{
             display: inline;
+            position: relative;
             margin: 0 0.5625rem;
-            padding: 0 0.75rem;
         }
         
         &__link{
-            transition: 0.15s ease-in-out;
+            padding: 0.25rem 0.75rem;
+            width:100%;
+            transition: $fast-transition;
             font-size:$font-size-extra-normal;
             font-weight: $font-weight-medium;
             letter-spacing: $letter-spacing-normal;
             color: $light-dark;
+
+            &::after{
+                display: inline-block;
+                position: absolute;
+                bottom:0;
+                left:50%;
+                content: '';
+                width:100%;
+                height: 0.3rem;
+                background-color: transparent;
+                transform: translate(-50%, 1rem);
+                transition: $fast-transition;
+            }
         }
 
-        &__item:nth-child(1) &__link:hover{
-            color: $brand-blue;
+        &__item:nth-child(1) .menu__link:hover{
+            color: $brand-green;
+
+            &::after{
+                background-color:$brand-green;
+            }
         }
 
-        &__item:nth-child(2) &__link:hover{
+        &__item:nth-child(2) .menu__link:hover{
             color: $brand-yellow;
+
+            &::after{
+                background-color:$brand-yellow;
+            }
+        }
+
+        &__item:nth-child(3) .menu__link:hover{
+            color: $brand-green;
+
+            &::after{
+                background-color:$brand-green;
+            }
+        }
+
+        &__item:nth-child(4) .menu__link:hover{
+            color: $brand-yellow;
+
+            &::after{
+                background-color:$brand-yellow;
+            }
         }
     }
 }
 
-@mixin search{
+@mixin search($typeNav){
         
-    .search-trigger{
-        text-align: right;
-    
-        &__open{
-            transform: translateY(2.25rem);
+    .search{
+
+        @if($typeNav == 'headerNav'){
+            position: absolute;
+            right:0;
+            top:0.8rem;
         }
-    
-        .material-symbols-outlined{
-            color: $light-dark;
+        text-align: right;
+
+        &__open{
+            display: block;
+            padding: 1rem;
+            
+            .material-symbols-outlined{
+                color: $light-dark;
+            }
         }
     }
 }
