@@ -20,6 +20,17 @@
         &:focus, &:active{
             border: 1px solid $brand-purple !important;
         }
+
+        &--noborder{
+            margin:auto;
+            padding: 0.8rem 1.5rem;
+            max-width: 30rem;
+            border: 0px solid $brand-purple;
+
+            &:focus, &:active{
+                border: 0px solid transparent !important;
+            }
+        }
     }
 
     &__label {

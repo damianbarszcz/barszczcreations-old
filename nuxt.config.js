@@ -48,6 +48,12 @@ export default {
           path: '/projekt',
           component: resolve(__dirname, 'pages/project.vue')
         },
+
+        {
+          name: 'search',
+          path: '/wyszukaj/',
+          component: resolve(__dirname, 'pages/search.vue')
+        },
       )
     }
   },

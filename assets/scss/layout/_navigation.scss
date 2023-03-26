@@ -3,6 +3,7 @@
     @include default-section;
 
     &_primary{
+        min-height: 67.5px;
         border-bottom:1px solid $light-silver;
         background-color:$white;
         z-index:100;
@@ -22,9 +23,19 @@
             @include menu('primaryNav');
         }
 
+        &__search-container{
+            padding:0.25rem 0;
+            margin: auto;
+            width: 30rem;
+        }
+
         &__search{
             margin-left: auto;
             @include search('primaryNav');
+        }
+
+        &__form{
+            display: flex;
         }
     }
 
@@ -48,4 +59,14 @@
             @include search('headerNav');
         }
     }
+}
+
+
+.search-lightbox{
+    display: block;
+    position: absolute;
+    min-height: 100%;
+    width:100%;
+    background-color: rgba(0,0,0,0.5);
+    z-index:99;
 }
