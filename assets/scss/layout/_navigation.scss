@@ -40,6 +40,9 @@
     }
 
     &_header{
+        background-color:$white;
+        z-index:100;
+
         &__block{
             padding-top:4rem;
         }
@@ -58,15 +61,32 @@
 
             @include search('headerNav');
         }
+
+        &__search-container{
+            padding:0.25rem 0;
+            margin: auto;
+            width: 30rem;
+        }
+
+        &__search{
+            margin-left: auto;
+            @include search('primaryNav');
+        }
+
+        &__form{
+            display: flex;
+        }
     }
 }
 
 
 .search-lightbox{
     display: block;
-    position: absolute;
+    position: fixed;
     min-height: 100%;
     width:100%;
+    opacity: 1;
     background-color: rgba(0,0,0,0.5);
+    transition: opacity .15s cubic-bezier(.4,0,.2,1);
     z-index:99;
 }

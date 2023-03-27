@@ -2,7 +2,13 @@
    export default {
         data(){
             return {
-                searchOpen: true
+                searchOpen: false
+            }
+        },
+
+        methods:{
+            getSearchBar(){
+               this.searchOpen = !this.searchOpen;
             }
         }
    }
@@ -48,7 +54,7 @@
 
                             <input name="search" class="form__input form__input--noborder" type="text" placeholder="Wyszukaj" tabindex="2" />
 
-                            <button class="btn search__open">
+                            <button class="btn search__open" @click="getSearchBar">
                                 <span class="material-symbols-outlined">close</span>
                             </button>
                         </form>
@@ -69,7 +75,7 @@
                     </div> 
 
                     <div class="navigation_primary__search search"> 
-                        <button class="btn search__open">
+                        <button class="btn search__open" @click="getSearchBar">
                             <span class="material-symbols-outlined">search</span>
                         </button>
                     </div>
