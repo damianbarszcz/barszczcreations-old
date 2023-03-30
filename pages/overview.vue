@@ -1,18 +1,21 @@
 <script>
+  import AccountNavigation from '@/components/navigation/AccountNavigation.vue'
+  import Sidenav from '@/components/pages/Menu.vue'
   import Dashboard from '@/components/pages/Dashboard.vue'
-  import Menu from '@/components/pages/Menu.vue'
 
   export default {
     components: {
+        AccountNavigation,
         Dashboard,
-        Menu,
+        Sidenav,
     }
   }
 </script>
 
 <template>
     <main>
-        <Menu />
+        <AccountNavigation />
+        <Sidenav />
         <Dashboard  />
     </main>
 </template>

@@ -54,6 +54,12 @@ export default {
           path: '/wyszukaj/',
           component: resolve(__dirname, 'pages/search.vue')
         },
+
+        {
+          name: 'overview',
+          path: '/przeglad',
+          component: resolve(__dirname, 'pages/overview.vue')
+        },
       )
     }
   },
