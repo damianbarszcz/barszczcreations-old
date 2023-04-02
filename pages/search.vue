@@ -9,6 +9,12 @@
       PrimaryFooter,
       SearchResults
     },
+
+    head(){
+        return{
+            title: "Wyszukaj | Barszcz Creations"
+        }
+    },
   }
 </script>
 

@@ -5,4 +5,12 @@
     background-color:$white;
     border-right: 1px solid $light-silver;
     z-index:100;
+
+    &__block{
+        padding: 6rem 0 6rem;
+    }
+
+    &__list &__item{
+        padding: 1rem 0rem;
+    }
 }

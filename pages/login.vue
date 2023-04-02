@@ -5,6 +5,12 @@
     components: {
         LoginBox
     },
+
+    head(){
+        return{
+            title: "Logowanie | Barszcz Creations"
+        }
+    },
   }
 </script>
 

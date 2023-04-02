@@ -11,6 +11,12 @@
       AboutBanner,
       Biography
     },
+
+    head(){
+        return{
+            title: "O mnie | Barszcz Creations"
+        }
+    },
   }
 </script>
 

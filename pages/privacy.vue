@@ -9,6 +9,12 @@
       PrimaryFooter,
       Privacy
     },
+
+    head(){
+        return{
+            title: "Polityka prywatności | Barszcz Creations"
+        }
+    },
   }
 </script>
 

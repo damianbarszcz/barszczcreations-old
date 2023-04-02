@@ -14,7 +14,13 @@
       return{
         isScroll: 0
       }
-    }
+    },
+
+    head(){
+        return{
+            title: "Barszcz Creations | Blog personalny"
+        }
+    },
   }
 </script>
 

@@ -77,6 +77,30 @@
             display: flex;
         }
     }
+
+    &_account{
+        min-height: 67.5px;
+        border-bottom:1px solid $light-silver;
+        background-color:$white;
+        z-index:100;
+    
+        &__block{
+            display: grid;
+            padding: 0 1rem;
+            grid-template-columns: 0.25fr 1fr 0.25fr;
+            align-items: center;
+            padding:0.25rem 0 0.25rem;
+        }
+    
+        &__brand{
+            @include brand(left,9.3125rem, 1.625rem);
+        }
+    
+        &__menu{
+            @include menu('primaryNav');
+        }
+
+    }
 }
 
 

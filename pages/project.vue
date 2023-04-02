@@ -6,7 +6,13 @@
     components: {
       PrimaryNavigation,
       PrimaryFooter,
-    }
+    },
+
+    head(){
+        return{
+            title: "Scatching up with Erik Spiekermann - Barszcz Creations"
+        }
+    },
   }
 </script>
 

@@ -8,7 +8,13 @@
         AccountNavigation,
         Dashboard,
         Sidenav,
-    }
+    },
+
+    head(){
+        return{
+            title: "Przegląd | Barszcz Creations"
+        }
+    },
   }
 </script>
 

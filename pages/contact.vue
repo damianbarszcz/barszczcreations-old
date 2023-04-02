@@ -28,6 +28,12 @@
             };
         },
 
+        head(){
+            return{
+                title: "Kontakt | Barszcz Creations"
+            }
+        },
+
         methods:{
             contactSubmitForm(){
                 // Submit form logic here
