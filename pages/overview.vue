@@ -12,7 +12,7 @@
 
     head(){
         return{
-            title: "Przegląd | Barszcz Creations"
+            title: "Barszcz Account"
         }
     },
   }
