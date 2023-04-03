@@ -86,10 +86,10 @@
     
         &__block{
             display: grid;
-            padding: 0 1rem;
+            padding: 0 3rem;
             grid-template-columns: 0.25fr 1fr 0.25fr;
             align-items: center;
-            padding:0.25rem 0 0.25rem;
+            min-height: 67.5px;
         }
     
         &__brand{

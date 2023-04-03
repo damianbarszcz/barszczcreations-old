@@ -3,37 +3,37 @@
         <div class="sidenav__block">
             <ul class="sidenav__list">
                 <li class="sidenav__item">
-                    <NuxtLink to="/przeglad" target="_self" class="sidenav__link">
+                    <NuxtLink to="/przeglad" target="_self" class="sidenav__link  sidenav__link--active" tabindex="1">
                         <span class="material-symbols-outlined">account_circle</span> 
-                        Strona główna
+                        <span class="sidenav__link-caption">Strona główna</span>
                     </NuxtLink>
                 </li>
 
                 <li class="sidenav__item">
-                    <NuxtLink to="#" target="_self" class="sidenav__link">
+                    <NuxtLink to="#" target="_self" class="sidenav__link" tabindex="2">
                         <span class="material-symbols-outlined">devices</span> 
-                        Projekty
+                        <span class="sidenav__link-caption">Projekty</span>
                     </NuxtLink>
                 </li>
 
                 <li class="sidenav__item">
-                    <NuxtLink to="#" target="_self" class="sidenav__link">
+                    <NuxtLink to="#" target="_self" class="sidenav__link" tabindex="3">
                         <span class="material-symbols-outlined">reviews</span> 
-                        Recenzje
+                        <span class="sidenav__link-caption">Recenzje</span>
                     </NuxtLink>
                 </li>
 
                 <li class="sidenav__item">
-                    <NuxtLink to="#" target="_self" class="sidenav__link">
+                    <NuxtLink to="#" target="_self" class="sidenav__link" tabindex="4">
                         <span class="material-symbols-outlined">draft</span> 
-                        Szkice
+                        <span class="sidenav__link-caption">Szkice</span>
                     </NuxtLink>
                 </li>
 
                 <li class="sidenav__item">
-                    <NuxtLink to="#" target="_self" class="sidenav__link">
+                    <NuxtLink to="#" target="_self" class="sidenav__link" tabindex="5">
                         <span class="material-symbols-outlined">info</span> 
-                        Informacje
+                        <span class="sidenav__link-caption">Informacje</span>
                     </NuxtLink>
                 </li>
             </ul>

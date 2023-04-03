@@ -1,6 +1,6 @@
 .sidenav{
     position: fixed;
-    width: 15%;
+    width: 17.5%;
     min-height: 100vh;
     background-color:$white;
     border-right: 1px solid $light-silver;
@@ -10,14 +10,31 @@
         padding: 2rem 0 6rem;
     }
 
+    &__list{
+        margin:0;
+        padding:0;
+    }
+
     &__list &__item{
-        padding: 0.75rem 0rem;
+        padding: 1rem 0rem;
     }
 
     &__link{
-        font-size:$font-size-normal;
-        font-weight: $font-weight-regular;
-        letter-spacing: $letter-spacing-normal;
+        display: flex;
+        align-items: center;
+        padding-left:3rem;
         color: $dark;
+
+        &-caption{
+            display: inline-block;
+            margin-left:1.5rem;
+            font-size:$font-size-normal;
+            font-weight: $font-weight-medium;
+            letter-spacing: $letter-spacing-normal;
+        }
+
+        &--active{       
+            color: $brand-blue !important;
+        }
     }
 }
