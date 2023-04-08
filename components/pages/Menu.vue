@@ -36,6 +36,13 @@
                         <span class="sidenav__link-caption">Informacje</span>
                     </NuxtLink>
                 </li>
+
+                <li class="sidenav__item">
+                    <NuxtLink to="#" target="_self" class="sidenav__link" tabindex="5">
+                        <span class="material-symbols-outlined">logout</span> 
+                        <span class="sidenav__link-caption">Wyloguj</span>
+                    </NuxtLink>
+                </li>
             </ul>
         </div>
     </nav>
